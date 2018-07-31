@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Grid,
 } from '@material-ui/core';
-import Description from './description';
+import Description from './Description';
 import Nav from '../Nav';
 import Signin from './Signin';
 import Login from './Login';
