@@ -3,17 +3,24 @@ import {
     AppBar,
     Toolbar,
     Typography,
-    Grid
+    Grid,
+    Button
 } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 const Nav = () => (
     <AppBar color="inherit" style={navStyle}>
-        <Toolbar>
-            <Grid container spacing={0}>
-                <Typography style={typeStyle} variant='title' color='inherit'> Retail Me Not </Typography>
+    <Toolbar>
+        <Grid container spacing={0}>
+            <Grid item xs={10} md={7} style={{textAlign: 'right', paddingRight: '3%'}}>
+                <a href="/" style={{textDecoration: 'none', color: 'white'}}> <Typography style={typeStyle} variant='title' color='inherit'> RetailMeNePas </Typography> </a>
             </Grid>
-        </Toolbar>
-    </AppBar>
+            <Grid item xs={2} md={5} style={{textAlign: 'right', width: '100%'}}>
+                <Button style={{ color: 'white'}} component={Link} to="/retailmenot/login"> Login / Signup </Button>
+            </Grid>
+        </Grid>
+    </Toolbar>
+</AppBar>
 )
 
 const navStyle = {
@@ -21,8 +28,8 @@ const navStyle = {
     backgroundColor: '#602d6c',
     color: 'white',
     boxShadow: 'none',
-    display: 'flex',
-    alignItems: 'center'
+    // display: 'flex',
+    // alignItems: 'center'
 }
 
 const typeStyle = {
