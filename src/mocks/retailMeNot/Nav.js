@@ -16,7 +16,7 @@ const Nav = () => (
                 <a href="/" style={{textDecoration: 'none', color: 'white'}}> <Typography style={typeStyle} variant='title' color='inherit'> RetailMeNePas </Typography> </a>
             </Grid>
             <Grid item xs={2} md={5} style={{textAlign: 'right', width: '100%'}}>
-                <Button style={{ color: 'white'}} component={Link} to="/retailmenot/login"> Login / Signup </Button>
+                <a href="/retailmenot/signup"> <Button style={{ color: 'white'}}> Login / Signup </Button> </a>
             </Grid>
         </Grid>
     </Toolbar>

@@ -13,7 +13,8 @@
     "test": "jest src/**",
     "test:watch": "jest src/** --watch",
     "test:watchAll": "jest src/** --watchAll",
-    "test:coverage:report": "open coverage/lcov-report/index.html"
+    "test:coverage:report": "open coverage/lcov-report/index.html",
+    "start-dev": "webpack -w & nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +30,7 @@
     "enzyme-adapter-react-16": "^1.0.0",
     "express": "^4.15.5",
     "node-sass": "^4.5.3",
+    "nodemon": "^1.18.3",
     "prop-types": "^15.6.0",
     "raf": "^3.3.2",
     "react": "^16.0.0",
