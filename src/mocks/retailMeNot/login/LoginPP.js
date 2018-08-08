@@ -21,10 +21,10 @@ class LoginPP extends React.Component {
         });
         return (
             <RmnReactZoid
-                clientId="AW_b4NdVcHRh2GfD-2k-nwxLHtNgFfCX0UbyEABReKuuVpBiBC4SzCDyCMvYvhHhDl11BGCVwmV97oWA"
+                clientId="AfN2xQ5wdIZw3c4-IBbh3YkzOZUJorjbjcUS6DMVz3Ggtx9Vyc2hTgKQzHHBK19V6A2igMgyzzgrBhRx"
                 deviceType="mobile"
-                pageType="signup"
-                onLogin={()=>console.log('loggedin')}
+                pageType="login"
+                onLogin={() => window.location.href = `${window.location.origin}/retailmenot/payout`}
             />
         )
     }

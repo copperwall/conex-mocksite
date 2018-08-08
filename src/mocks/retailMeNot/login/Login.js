@@ -6,15 +6,15 @@ import {
     Divider,
     TextField,
 } from '@material-ui/core';
-import LoginPP from '../signup/LoginPP';
+import LoginPP from './LoginPP';
 
 const Login = () => (
     <Paper>
         <Grid container spacing={0}>
-            <Grid item xs={12} style={{ padding: '2%', paddingTop: '5%' }}>
+            <Grid item xs={12} style={{ padding: '5%', paddingTop: '5%' }}>
                 <LoginPP />
             </Grid>
-            <Grid item xs={12} style={{ padding: '2%', paddingTop: '5%' }}>
+            <Grid item xs={12} style={{ padding: '5%', paddingTop: '5%' }}>
                 <Button fullWidth style={{ padding: '5%' }} variant='raised' color='primary'> Log In with Facebook </Button>
             </Grid>
             <Grid item xs={12}>

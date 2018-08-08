@@ -5,7 +5,7 @@ import {
 import Description from './Description';
 import Nav from '../Nav';
 import Signin from './Signin';
-import Login from './Login';
+import Signup from './Signup';
 
 const RetailMeNotSignUp = () => (
     <div>
@@ -13,14 +13,14 @@ const RetailMeNotSignUp = () => (
             <Nav />
         </Grid>
         <Grid container spacing={24} style={{ paddingTop: '5%', paddingLeft: '10%', paddingRight: '10%' }} alignItems="stretch" justify="center">
-            <Grid item sm={12} md={6} lg={4}> <Description /> </Grid>
-            <Grid item sm={12} md={6} lg={4}>
+            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 300}}> <Description /> </Grid>
+            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 300}}>
                 <Grid container spacing={24}>
                     <Grid item xs={12}>
                         <Signin />
                     </Grid>
-                    <Grid item xz={12}>
-                        <Login />
+                    <Grid item xs={12}>
+                        <Signup />
                     </Grid>
                 </Grid>
             </Grid>

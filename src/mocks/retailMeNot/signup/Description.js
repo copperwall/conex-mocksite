@@ -20,9 +20,9 @@ const Description = () => (
 
 const style = {
     textAlign: 'center',
+    padding: '5%',
     paddingLeft: '5%',
     paddingRight: '5%',
-    // paddingBottom: 0,
     height: '100%',
     display: 'flex',
     justifyContent: 'center',
