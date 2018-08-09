@@ -12,9 +12,9 @@ const RetailMeNotSignUp = () => (
         <Grid container style={{ height: 75 }}>
             <Nav />
         </Grid>
-        <Grid container spacing={24} style={{ paddingTop: '5%', paddingLeft: '10%', paddingRight: '10%' }} alignItems="stretch" justify="center">
-            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 300}}> <Description /> </Grid>
-            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 300}}>
+        <Grid container spacing={0} style={{ paddingTop: '5%', paddingLeft: '10%', paddingRight: '10%' }} alignItems="stretch" justify="center">
+            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 320, margin: '1%'}}> <Description /> </Grid>
+            <Grid item sm={12} md={6} lg={4} style={{maxWidth: 320, margin: '1%'}}>
                 <Grid container spacing={24}>
                     <Grid item xs={12}>
                         <Signin />
