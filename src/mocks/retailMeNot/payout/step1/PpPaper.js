@@ -9,7 +9,7 @@ const PpPaper = () => (
             </Grid>
             <Grid item xs={12}>
                 <Typography variant="caption"> Payment will be sent to: </Typography>
-                <Typography variant="caption"> roylichtenstein@gmail.com </Typography>
+                <Typography variant="caption" style={{fontSize: 20}}> roy.lichtenstein@gmail.com </Typography>
             </Grid>
         </Grid>
     </Paper>
