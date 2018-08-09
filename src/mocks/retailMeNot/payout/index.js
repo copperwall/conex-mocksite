@@ -10,7 +10,7 @@ const Payout = () => (
         </Grid>
         <Grid container spacing={24} style={{paddingTop:'3%', paddingLeft:'5%', paddingRight: '5%', }} alignItems='stretch' justify='center'>
             <Grid item xs={6} style={{textAlign:'left'}} >
-                <Typography variant="headline"> Logged in as: Roy Lichtenstein </Typography>
+                <Typography variant="headline"> Logged in as: roy.lichtenstein@gmail.com </Typography>
                 <Typography variant="headline"> Redeem Rewards </Typography>
             </Grid>
             <Grid item xs = {6} style={{textAlign:'right'}}>
