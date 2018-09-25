@@ -1,27 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import zoid from 'zoid';
 
 class SignupPP extends React.Component {
-    constructor() {
-        super()
-    }
     render() {
-        const RmnReactZoid = zoid.create({
-            tag: 'rmn-pp-signup-component',
-            url: 'https://www.conexnodeweb18071848.qa.paypal.com/conex/advantage-connect/RETAILMENOT',
-            autoResize: {
-                height: true,
-                element: 'html',
-            },
-            prerenderTemplae: () => null,
-        }).driver('react', {
-            React: React,
-            ReactDOM: ReactDOM,
+        let RmnReactZoid = window.AdvConnectZoid.driver('react', {
+            React,
+            ReactDOM
         });
         return (
             <RmnReactZoid
-                clientId="AfN2xQ5wdIZw3c4-IBbh3YkzOZUJorjbjcUS6DMVz3Ggtx9Vyc2hTgKQzHHBK19V6A2igMgyzzgrBhRx"
+                clientId="AXgFMu3u6vdatxW4Yfl9R5A8QBa_Wm-H4ijwUnOFruS60g55Jqaj1L91LDyneyIuScZpMqLo2ciBcvd3"
                 deviceType="mobile"
                 pageType="signup"
                 onLogin={() => window.location.href = `${window.location.origin}/retailmenot/payout`}
