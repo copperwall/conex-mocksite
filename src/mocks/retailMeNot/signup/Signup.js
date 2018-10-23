@@ -11,7 +11,7 @@ import SignupPP from './SignupPP';
 const Signup = () => (
     <Paper>
         <Grid container spacing={0}>
-            <Grid item xs={12} style={{ paddingLeft: '2.5%', paddingTop: '5%' }}>
+            <Grid item xs={12} style={{ padding: '2.5%', paddingTop: '5%' }}>
                 <SignupPP />
             </Grid>
             <Grid item xs={12} style={{ padding: '2.5%', paddingTop: '2.5%', paddingBottom: '5%' }}>
