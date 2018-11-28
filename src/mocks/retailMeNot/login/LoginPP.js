@@ -12,6 +12,7 @@ class LoginPP extends React.Component {
                 clientId="AXgFMu3u6vdatxW4Yfl9R5A8QBa_Wm-H4ijwUnOFruS60g55Jqaj1L91LDyneyIuScZpMqLo2ciBcvd3"
                 deviceType="mobile"
                 pageType="login"
+                merchantId="abc123"
                 onLogin={() => window.location.href = `${window.location.origin}/retailmenot/payout`}
             />
         )
