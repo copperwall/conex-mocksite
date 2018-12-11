@@ -9,7 +9,7 @@ class LoginPP extends React.Component {
         });
         return (
             <RmnReactZoid
-                clientId="AXgFMu3u6vdatxW4Yfl9R5A8QBa_Wm-H4ijwUnOFruS60g55Jqaj1L91LDyneyIuScZpMqLo2ciBcvd3"
+                clientId="AUfKX2mdsxU8RmnSRUvz5PaLGS7hDeLe1jmgORBV2Ar4mJjvaczl-TNZaazvcsqnkIhk69IYia3PBQsH"
                 deviceType="mobile"
                 pageType="login"
                 merchantId="abc123"
