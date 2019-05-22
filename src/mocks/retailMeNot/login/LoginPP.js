@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 class LoginPP extends React.Component {
     render() {
-        const PayoutsConnect = window.paypal.PayoutsConnect.driver('react', {
+        const PayoutsAAC = window.paypal.PayoutsAAC.driver('react', {
             React,
             ReactDOM
         });
         return (
-            <PayoutsConnect
+            <PayoutsAAC
                 clientId={{
                     production: "AbGEld_rV8YPIC1pMieTvZqrXfx8vMLuit71kDwCEy7ypeAJMc29--Asg2vjXh_fXz8HWeY_znOGwDPf",
                     sandbox: "AbGEld_rV8YPIC1pMieTvZqrXfx8vMLuit71kDwCEy7ypeAJMc29--Asg2vjXh_fXz8HWeY_znOGwDPf"

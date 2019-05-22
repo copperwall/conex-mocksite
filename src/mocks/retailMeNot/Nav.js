@@ -13,7 +13,7 @@ const Nav = () => (
     <Toolbar>
         <Grid container spacing={0}>
             <Grid item xs={10} md={7} style={{textAlign: 'right', paddingRight: '3%'}}>
-                <a href="/" style={{textDecoration: 'none', color: 'white'}}> <Typography style={typeStyle} variant='title' color='inherit'> RetailMeNePas </Typography> </a>
+                <a href="/" style={{textDecoration: 'none', color: 'white'}}> <Typography style={typeStyle} variant='title' color='inherit'> Sample Site </Typography> </a>
             </Grid>
             <Grid item xs={2} md={5} style={{textAlign: 'right', width: '100%'}}>
                 <a href="/retailmenot/signup"> <Button style={{ color: 'white'}}> Login / Signup </Button> </a>
